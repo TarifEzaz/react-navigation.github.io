@@ -17,7 +17,7 @@ We try to apply proper insets on the UI elements of the navigators to avoid bein
 
 While React Navigation handles safe areas for the built-in UI elements by default, your own content may also need to handle it to ensure that content isn't hidden by these items.
 
-It's tempting to solve (a) by wrapping your entire app in a container with padding that ensures all content will not be occluded. But in doing so, we waste a bunch of space on the screen, as pictured in the image on the left below. What we ideally want is the image pictured on the right.
+It's tempting to solve by wrapping your entire app in a container with padding that ensures all content will not be occluded. But in doing so, we waste a bunch of space on the screen, as pictured in the image on the left below. What we ideally want is the image pictured on the right.
 
 ![Notch on the iPhone X](/assets/iphoneX/00-intro.png)
 
